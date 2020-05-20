@@ -59,7 +59,7 @@ html {
     font-size: 2.5rem;
 }
 
-.main-h1 span {
+.main-h1 .br {
     font-weight: 700;
     background: rgba(0, 0, 0, 0.582);
     padding: 8px 20px;
@@ -150,4 +150,64 @@ html {
     padding: 0.7rem 1rem;
     border: none;
     font-size: 1.1rem;
+}
+
+/* Contact Section */
+
+.form-group {
+}
+
+.form-group input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.form-group input::placeholder {
+    font-size: 1rem;
+}
+
+.form-group [type='submit'] {
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    border: none;
+}
+
+.map-image {
+    max-width: 100%;
+}
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 576px) {
+    .navbar-links-wrapper,
+    .main-h1-text {
+        display: none;
+    }
+
+    .main-image {
+        margin-top: 55px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    .section {
+        padding: 0rem 1rem;
+    }
+
+    .about-card {
+        width: 100%;
+    }
 }
